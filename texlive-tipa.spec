@@ -1,15 +1,15 @@
-# revision 15878
+# revision 25247
 # category Package
-# catalog-ctan /fonts/tipa
-# catalog-date 2008-12-21 00:03:33 +0100
+# catalog-ctan /fonts/tipa/tipa
+# catalog-date 2012-01-30 10:59:21 +0100
 # catalog-license lppl
 # catalog-version 1.3
 Name:		texlive-tipa
 Version:	1.3
-Release:	2
+Release:	3
 Summary:	Fonts and macros for IPA phonetics characters
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/tipa
+URL:		http://www.ctan.org/tex-archive/fonts/tipa/tipa
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa.doc.tar.xz
@@ -36,13 +36,6 @@ versions are provided for both the T3 and the TS3 fonts.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/fonts/map/dvips/tipa/tipa.map
-%{_texmfdistdir}/fonts/source/public/tipa/gentfm.sh
-%{_texmfdistdir}/fonts/source/public/tipa/gentipa.sh
-%{_texmfdistdir}/fonts/source/public/tipa/gentipx.sh
-%{_texmfdistdir}/fonts/source/public/tipa/genxipa.sh
-%{_texmfdistdir}/fonts/source/public/tipa/genxipx.sh
-%{_texmfdistdir}/fonts/source/public/tipa/mktipapk.sh
-%{_texmfdistdir}/fonts/source/public/tipa/mkxipapk.sh
 %{_texmfdistdir}/fonts/source/public/tipa/tipa.mf
 %{_texmfdistdir}/fonts/source/public/tipa/tipa10.mf
 %{_texmfdistdir}/fonts/source/public/tipa/tipa12.mf
@@ -289,11 +282,20 @@ versions are provided for both the T3 and the TS3 fonts.
 %{_texmfdistdir}/tex/latex/tipa/uxipxss.fd
 %{_texmfdistdir}/tex/latex/tipa/vowel.sty
 %doc %{_texmfdistdir}/doc/fonts/tipa/00README
+%doc %{_texmfdistdir}/doc/fonts/tipa/00README.doc
 %doc %{_texmfdistdir}/doc/fonts/tipa/Makefile
+%doc %{_texmfdistdir}/doc/fonts/tipa/Makefile.doc
+%doc %{_texmfdistdir}/doc/fonts/tipa/Manifest.txt
 %doc %{_texmfdistdir}/doc/fonts/tipa/boxchar.sty
 %doc %{_texmfdistdir}/doc/fonts/tipa/codelist.sty
+%doc %{_texmfdistdir}/doc/fonts/tipa/gentfm.sh
+%doc %{_texmfdistdir}/doc/fonts/tipa/gentipa.sh
+%doc %{_texmfdistdir}/doc/fonts/tipa/gentipx.sh
+%doc %{_texmfdistdir}/doc/fonts/tipa/genxipa.sh
+%doc %{_texmfdistdir}/doc/fonts/tipa/genxipx.sh
+%doc %{_texmfdistdir}/doc/fonts/tipa/mktipapk.sh
+%doc %{_texmfdistdir}/doc/fonts/tipa/mkxipapk.sh
 %doc %{_texmfdistdir}/doc/fonts/tipa/tipa.bib
-%doc %{_texmfdistdir}/doc/fonts/tipa/tipaman.bbl
 %doc %{_texmfdistdir}/doc/fonts/tipa/tipaman.pdf
 %doc %{_texmfdistdir}/doc/fonts/tipa/tipaman.sty
 %doc %{_texmfdistdir}/doc/fonts/tipa/tipaman.tex
@@ -302,6 +304,7 @@ versions are provided for both the T3 and the TS3 fonts.
 %doc %{_texmfdistdir}/doc/fonts/tipa/tipaman2.tex
 %doc %{_texmfdistdir}/doc/fonts/tipa/tipaman3.tex
 %doc %{_texmfdistdir}/doc/fonts/tipa/tipaman4.tex
+%doc %{_texmfdistdir}/doc/fonts/tipa/vowel.pdf
 %doc %{_texmfdistdir}/doc/fonts/tipa/vowel.tex
 
 #-----------------------------------------------------------------------
