@@ -1,4 +1,4 @@
-# revision 25247
+# revision 29349
 # category Package
 # catalog-ctan /fonts/tipa/tipa
 # catalog-date 2012-01-30 10:59:21 +0100
@@ -6,7 +6,7 @@
 # catalog-version 1.3
 Name:		texlive-tipa
 Version:	1.3
-Release:	4
+Release:	5
 Summary:	Fonts and macros for IPA phonetics characters
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/tipa/tipa
