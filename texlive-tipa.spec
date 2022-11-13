@@ -1,18 +1,12 @@
-# revision 29349
-# category Package
-# catalog-ctan /fonts/tipa/tipa
-# catalog-date 2012-01-30 10:59:21 +0100
-# catalog-license lppl
-# catalog-version 1.3
 Name:		texlive-tipa
-Version:	1.3
-Release:	14
+Version:	29349
+Release:	1
 Summary:	Fonts and macros for IPA phonetics characters
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/tipa/tipa
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,12 +20,12 @@ addendum symbols as encoding TS3. 'Times-like' Adobe Type 1
 versions are provided for both the T3 and the TS3 fonts.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -309,7 +303,7 @@ versions are provided for both the T3 and the TS3 fonts.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
