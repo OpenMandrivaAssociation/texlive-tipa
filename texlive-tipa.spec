@@ -1,6 +1,6 @@
 Name:		texlive-tipa
 Version:	29349
-Release:	1
+Release:	2
 Summary:	Fonts and macros for IPA phonetics characters
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/tipa/tipa
