@@ -3,7 +3,7 @@ Version:	29349
 Release:	2
 Summary:	Fonts and macros for IPA phonetics characters
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/tipa/tipa
+URL:		https://www.ctan.org/tex-archive/fonts/tipa/tipa
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa.doc.r%{version}.tar.xz
